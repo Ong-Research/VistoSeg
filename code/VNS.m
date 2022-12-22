@@ -11,7 +11,7 @@ toc
 
 tic
 disp('Performing smoothing and contrast adjustment')
-Img1_smooth = imgaussfilt(Img1,1); %smooth image
+Img1_smooth = imgaussfilt(Img1,2); %smooth image
 %he = imadjust(Img1_smooth, [.2 .3 0; .6 .7 1],[]); %default adjust contrast in image
 %he = imadjust(Img1_smooth, [0.1 .3 .1; .5 .7 .9],[]);
 %he = imadjust(Img1_smooth, [0.1 .3 .1; .85 .75 .9],[]);
